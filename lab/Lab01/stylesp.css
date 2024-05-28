@@ -1,0 +1,81 @@
+/* YOUR STYLES HERE */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DBF9FC;
+}
+
+#back{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: black;
+    margin: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#back:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.userinput{
+    text-align: center;
+    line-height: 15px;
+}
+
+#HTML Forms{
+    text-align: center;
+}
+
+h3{
+    padding: 5px 5px;
+}
+
+.wrapper{
+    margin: auto;
+    align-items: center;
+}
+
+.main-logo{
+    margin: auto;
+    align-items: center;
+    display: block;
+}
+
+#pics {
+    display: block;
+    margin: auto;
+}
+
+.picc{
+    height:320px;
+    width: 320px;
+    border-radius: 50px;
+    align-items:center;
+    margin: 10px 10px;
+}
+
+#pfp1 {
+    border: 5px solid #fc0303
+}
+
+#pfp1:hover{
+    box-shadow: 0px 0px 20px #C2C2C2;
+}
+
+
+#pfp2 {
+    border: 5px solid #2dfc03
+}
+
+#pfp3 {
+    border: 5px solid #031cfc
+}
+
+#pfp4 {
+    border: 5px solid #8403fc
+}
+

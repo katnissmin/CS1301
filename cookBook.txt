@@ -1,0 +1,25 @@
+Recipes
+
+Shakshuka
+20
+Tunisia
+
+Sushi
+70
+Japan
+
+Pasta
+60
+Italy
+
+Hummus
+12
+Lebanon
+
+Pizza
+17
+Italy
+
+Mofongo
+40
+Puerto Rico

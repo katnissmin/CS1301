@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#menu  {
+    font-size: 25px;
+}
+
+#title{
+    border: 2.5px solid black;
+    padding: 5px 10px;
+    max-width: 800;
+    margin: 1rem auto;
+    background-color: rgb(231, 75, 75);
+}
+
+#results {
+    border: 5px solid black;
+    max-width: 550;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+img{
+    animation: rotation 10s infinite linear;
+    width: 550px;
+    height: 550px;
+    border: 5px solid #0362fc
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

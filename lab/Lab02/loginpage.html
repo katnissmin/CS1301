@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Katniss Min (Seoyoung)</title>
+        <link rel="stylesheet" type="text/css" href="form_design.css">
+    </head>
+
+    <button type="button" onclick="alert('This quis is made by Katniss!')">More Information</button>
+
+    <body style="background-color:powderblue;">
+
+        <form action="results.html" method="get">
+            <div style="text-align: center" id="title">
+                <h1>What type of brownie suits you the best?</h1>
+            </div>
+            
+            <div style="text-align: center" id = "subtitle">
+                <p>Your answers to the following questions will play a very important role in choosing the perfect brownie for you!</p>
+            </div> 
+            
+            <div style="text-align: center" id = "inputname">
+                <label for="fname">What is your name?</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+           
+            <div style="text-align: center" id = "numbbrownie">
+                <label for="amount">How many brownies do you eat every week?</label>
+                <input type="number" id="amount" name="amount" step="1">
+            </div>
+            
+            <div style="text-align: center" id = tvgenre>
+                <p>Which TV genre do you enjoy watching?</p>
+                <input type="checkbox" id="comedy" name="genres" value="comedy">
+                <label for="comedy">Comedy</label>
+
+                <input type="checkbox" id="drama" name="genres" value="drama">
+                <label for="drama">Drama</label>
+
+                <input type="checkbox" id="action" name="genres" value="action">
+                <label for="action">Action</label>
+
+                <input type="checkbox" id="horror" name="genres" value="horror">
+                <label for="horror">Horror</label>
+            </div>
+
+            <div style="text-align: center" id = "movies">
+                <label for="fmovie">What is your favourite movie?</label>
+                <input type="text" id="movie" name="movie" required>
+            </div>
+
+            <div style="text-align: center" id = weather>
+                <p>What's your favourite weather?</p> 
+                <input type="radio" id="sunny" name="thriller" value="sunny">
+                 <label for="sunny">Sunny &#127774</label></input>
+ 
+                 <input type="radio" id="windy" name="thriller" value="windy">
+                 <label for="windy">Windy &#127788</label></input>
+ 
+                 <input type="radio" id="rain" name="thriller" value="rain">
+                 <label for="rain">Rainy &#127783</label></input>
+ 
+                 <input type="radio" id="snow" name="thriller" value="snow">
+                 <label for="snow">Snowy &#127784</label></input>
+
+                 <input type="radio" id="cloudy" name="thriller" value="cloudy">
+                 <label for="cloudy">Cloudy &#127781</label></input>
+             </div>
+
+             <div style="text-align: center" id = sweet>
+                <p>What's your favourite sweet?</p> 
+                <input type="radio" id="mnm" name="sweets" value="mnm">
+                 <label for="mnm">M&Ms</label></input>
+ 
+                 <input type="radio" id="starburst" name="sweets" value="starburst">
+                 <label for="starburst">Starburst</label></input>
+ 
+                 <input type="radio" id="twizzlers" name="sweets" value="twizzlers">
+                 <label for="twizzlers">Twizzlers</label></input>
+ 
+                 <input type="radio" id="caramel" name="sweets" value="caramel">
+                 <label for="caramel">Caramel</label></input>
+
+                 <input type="radio" id="mint" name="sweets" value="mint">
+                 <label for="mint">Mints</label></input>
+             </div>
+
+             <div style="text-align: center" id = quiz>
+                <label for="answ">Would you do this quiz again???</label>
+                <select name="answ" id="answ">
+                    <option value="yes1">YES</option>
+                    <option value="yes2">OF COURSE</option>
+                    <option value="yes3">DEFINITELY!</option>
+                </select>
+                <br><br>
+            </div>
+        
+            <div style="text-align: center", id="submit-btn", button style="background-color: rgb(250, 143, 250)";>
+                <input id="submit-btn" type="submit" value="Submit!">
+            </div>
+        </form>
+    </body>
+</html>
